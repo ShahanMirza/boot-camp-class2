@@ -35,4 +35,4 @@ jobs:
       - name: installing surge
         run: npm install -g surge
       - name: deploying surge
-        run: surge ./build https://http://kindhearted-pearl.surge.sh --token ${{secrets.SURGE_TOKEN}} 
+        run: surge ./build https://kindhearted-pearl.surge.sh --token ${{secrets.SURGE_TOKEN}} 
