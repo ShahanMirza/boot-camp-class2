@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div >
-     Hello Word
+  <h1>Hello bootcamp</h1>
     </div>
   );
 }
