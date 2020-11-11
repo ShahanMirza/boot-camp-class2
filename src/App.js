@@ -1,7 +1,6 @@
 // import logo from './logo.svg';
 import React from 'react';
-// import Greet from './components/Greet'
-import Hello from './components/Hello'
+import Hello from './components/Hello.js'
 import './Hello.css'
 // function CallFunc(){
 //   return(

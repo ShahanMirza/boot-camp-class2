@@ -1,8 +1,8 @@
 import React from 'react'
-
 function Greet(){
     // textBox()
- return <h1>Sign up Form</h1>,   
+ return <div>
+ <h1>Sign up Form</h1>,   
  <form>
      <label>
          First Name:
@@ -16,7 +16,7 @@ function Greet(){
      <br/>
      <input type='submit' value='Submit'/>
  </form>
-
+ </div>
  }
 
 // function textBox(){
