@@ -1,7 +1,9 @@
 // import logo from './logo.svg';
 import React from 'react';
-import Hello from './components/Hello.js'
-import './Hello.css'
+import Hello from './components/Hello.js';
+import './Hello.css';
+import Greet from './components/Greet';
+import Room from './components/Room';
 // function CallFunc(){
 //   return(
 //     (
@@ -23,6 +25,10 @@ import './Hello.css'
 const App=({name,age})=> <div><h1 className='myname'>Hello {name} its calling by arrow function</h1>
 <p id='age'>Age = {age}</p>
 <Hello firstName={name} />
+<br></br>
+<Greet/>
+<br></br>
+<Room/>
 </div>
 
 export default App;

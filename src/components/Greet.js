@@ -1,33 +1,15 @@
 import React from 'react'
+
 function Greet(){
     // textBox()
  return <div>
- <h1>Sign up Form</h1>,   
- <form>
-     <label>
-         First Name:
-     <input type='text' name='name'/>
-     </label>
-     <br/>
-     <label>
-         Last Name:
-         <input type='text' name='lastName'/>
-     </label>
-     <br/>
-     <input type='submit' value='Submit'/>
- </form>
+ <h1>Practice of card </h1>   
+ <div className='card'>
+     <img id='imgTag'src='https://react.semantic-ui.com/images/avatar/large/matthew.png' alt='Avatar' style={{"width":"30%", 'height':'30%'}} />
+    <div className='container'>
+     <h3><b>Muhammad Shahan</b></h3>
+     <p>DevOps Engineer Perception-IT</p>
+     </div>
  </div>
- }
-
-// function textBox(){
-//     <form>
-//         <label>
-//             Name:
-//         <input type='text' name='name'/>
-//         </label>
-//         <input type='submit' value='Submit'/>
-//     </form>
-// }
-
-// export const Greet= () => <h1>Hello from Greet using arrrow function </h1>
+ </div> }
  export default Greet
